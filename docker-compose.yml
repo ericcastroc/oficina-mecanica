@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      - 'MYSQL_DATABASE=oficina-mecanica'
+      - 'MYSQL_PASSWORD=cvbkl'
+      - 'MYSQL_ROOT_PASSWORD=cvbkl'
+      - 'MYSQL_USER=admin'
+    ports:
+      - '3306:3306'
